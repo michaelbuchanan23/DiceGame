@@ -1,12 +1,13 @@
-DECLARE @counter int;
+DECLARE @counter bigint;
 declare @score int;
 declare @diceroll int;
-declare @gamesplayed int;
+declare @gamesplayed bigint;
 declare @GoalScore int;
 
 --ENTER YOUR GOAL SCORE BELOW--
 SET @GoalScore = 500
 ----
+
 SET @counter = 0;
 SET @score = 0;
 set @diceroll = 5
